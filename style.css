@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-bottom: 2px solid #D6D6D6;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 3rem;
+}
+
+
+
+.navbar ul a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+.hero {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    gap: 4rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #1A0A00;
+    font-family: Merriweather;
+}
+
+.hero p {
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.image1 {
+    font-size: 30px;
+    padding-top: 15px;
+    margin-top: 3rem;
+}
+
+.image2 {
+    padding-top: 15px;
+    position: absolute;
+}
