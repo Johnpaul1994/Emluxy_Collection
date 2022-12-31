@@ -32,8 +32,9 @@ li {
     display: flex;
     font-size: 20px;
     align-items: center;
-    gap: 4rem;
-    padding-left: 40px;
+    gap: 8rem;
+    font-weight: 700px;
+    padding-left: 100px;
     padding-right: 40px;
     color: #1A0A00;
     font-family: Merriweather;
@@ -44,13 +45,52 @@ li {
     padding-top: 10px;
 }
 
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
 .image1 {
-    font-size: 30px;
-    padding-top: 15px;
-    margin-top: 3rem;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 
 .image2 {
-    padding-top: 15px;
     position: absolute;
+    top: 400px;
+    left: -70px;
+    border: 2px solid #FF0000;
+    border-radius: 26px;
+}
+
+.image3 {
+    position: absolute;
+    top: 400px;
+    right: 20px;
+    border: 2px solid #1F120A;
+    border-radius: 26px;
+}
+
+/* second-section */
+.second-sect {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+    padding-left: 100px;
+    font-size: 20px;
+    padding-top: 140px;
+}
+
+.second-sect p {
+    color: #F9952F;;
+
+}
+
+.second-sect h2 {
+    font-family: 'Merriweather';
+    color: #2A6D5D;;
 }
