@@ -22,6 +22,11 @@
 .navbar ul a {
     text-decoration: none;
     font-size: 16px;
+    color: #454545;
+}
+
+.navbar ul li:first-child a {
+    color: #F98919;
 }
 
 li {
@@ -38,6 +43,11 @@ li {
     padding-right: 40px;
     color: #1A0A00;
     font-family: Merriweather;
+}
+
+.first-sect {
+    margin-left: 70px;
+    /* margin-bottom: 20px; */
 }
 
 .hero p {
@@ -57,22 +67,30 @@ li {
     position: relative;
     top: 0;
     left: 0;
+    width: 300px;
+    height: auto;
+    margin-left: 150px;
 }
 
 .image2 {
     position: absolute;
-    top: 400px;
-    left: -70px;
+    top: 270px;
+    left: 80px;
     border: 2px solid #FF0000;
     border-radius: 26px;
+    width: 120px;
+    height: auto;
 }
 
 .image3 {
     position: absolute;
-    top: 400px;
-    right: 20px;
+    top: 270px;
+    right: 220px;
+    left: 390px;
     border: 2px solid #1F120A;
     border-radius: 26px;
+    width: 120px;
+    height: auto;
 }
 
 /* second-section */
@@ -83,6 +101,7 @@ li {
     padding-left: 100px;
     font-size: 20px;
     padding-top: 140px;
+    margin-bottom: 80px;
 }
 
 .second-sect p {
@@ -92,5 +111,14 @@ li {
 
 .second-sect h2 {
     font-family: 'Merriweather';
-    color: #2A6D5D;;
+    color: #2A6D5D;
+}
+
+.purse-image {
+    width: 300px;
+    height: auto;
+}
+
+.first-div {
+    margin-left: 200px;
 }
