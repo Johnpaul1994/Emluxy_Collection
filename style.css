@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #F5F5F5;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -17,6 +21,9 @@
     gap: 3rem;
 }
 
+.logo {
+    padding-left: 130px;
+}
 
 
 .navbar ul a {
@@ -33,6 +40,11 @@ li {
     list-style: none;
 }
 
+.icon1 {
+    color: #46BEA1;
+    font-size: 25px;
+}
+
 .hero {
     display: flex;
     font-size: 20px;
@@ -42,7 +54,24 @@ li {
     padding-left: 100px;
     padding-right: 40px;
     color: #1A0A00;
-    font-family: Merriweather;
+}
+
+.hero h2 {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+button {
+    border: 2px solid;
+    color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 32px;
+background-color: #F98919;
+margin-top: 70px;
 }
 
 .first-sect {
@@ -52,7 +81,7 @@ li {
 
 .hero p {
     font-size: 24px;
-    padding-top: 10px;
+    margin-top: 25px;
 }
 
 .parent {
@@ -62,6 +91,10 @@ li {
     padding-top: 20px;
     padding-right: 100px;
 }
+
+/* .image0 {
+    margin-top: 150px;
+} */
 
 .image1 {
     position: relative;
@@ -105,7 +138,8 @@ li {
 }
 
 .second-sect p {
-    color: #F9952F;;
+    color:  #09746D;
+    padding-top: 30px;
 
 }
 
@@ -121,4 +155,20 @@ li {
 
 .first-div {
     margin-left: 200px;
+}
+
+.third-sect {
+    gap: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.orange-box {
+    width: 400px;
+    height: auto;
+}
+
+.picture1 {
+    width: 400px;
+    height: auto;
 }
