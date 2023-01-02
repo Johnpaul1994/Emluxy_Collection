@@ -158,17 +158,31 @@ margin-top: 70px;
 }
 
 .third-sect {
-    gap: 5rem;
+    gap: 2rem;
     display: flex;
     align-items: center;
+}
+
+.orange-box-border {
+    width: 450px;
+    height: auto;
+    position: absolute;
 }
 
 .orange-box {
     width: 400px;
     height: auto;
+    position: relative;
+    margin-right: 20rem;
+    padding: 30px 10px;
 }
 
 .picture1 {
     width: 400px;
     height: auto;
 }
+
+.rectangle {
+    margin-left: 100px;
+}
+
