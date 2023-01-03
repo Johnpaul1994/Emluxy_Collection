@@ -5,20 +5,35 @@
 }
 
 body {
-    background: #F5F5F5;
+    background-color: rgb(212, 218, 202);
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
-    border-bottom: 2px solid #D6D6D6;
+    border-bottom: 1px solid rgb(112, 223, 112);
     align-items: center;
 }
 
 .navbar ul{
     display: flex;
     gap: 3rem;
+}
+
+.navList ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #FF0000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: .5s;
+}
+
+.navList ul li a:hover::after {
+    width: 100%;
 }
 
 .logo {
@@ -33,7 +48,7 @@ body {
 }
 
 .navbar ul li:first-child a {
-    color: #F98919;
+    color: rgb(112, 223, 112);
 }
 
 li {
@@ -178,11 +193,19 @@ margin-top: 70px;
 }
 
 .picture1 {
-    width: 400px;
+    width: 300px;
     height: auto;
 }
 
 .rectangle {
     margin-left: 100px;
+    margin-bottom: 100px;
 }
 
+.new1{
+    position: relative;
+    bottom: 300px;
+    color: #ffffff;
+    margin-left: 7rem;
+    margin-bottom: 4rem;
+}
